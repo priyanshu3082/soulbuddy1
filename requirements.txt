@@ -117,7 +117,7 @@ pypdfium2==4.30.0
 pypiwin32==223
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
-python==3.8
+python==3.11
 pyttsx3==2.90
 pytz==2024.1
 pywin32==306
