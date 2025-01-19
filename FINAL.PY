@@ -9,7 +9,7 @@ OPENCAGE_API_KEY = "9e148c461c1843ecab4da2b9881e55b2"
 
 # Function to get latitude and longitude
 def get_lat_long(city, state):
-    geocoder = OpenCageGeocode(OPENCAGE_API_KEY)
+    geocoder = OpenCageGeocode(process.env.OPENCAGE_API_KEY)
     query = f"{city}, {state}"
     results = geocoder.geocode(query)
     
